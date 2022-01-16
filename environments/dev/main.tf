@@ -20,7 +20,7 @@ locals {
 provider "google" {
   project = "${var.project}"
 }
-
+#VPC-Creation
 module "vpc" {
   source  = "../../modules/vpc"
   project = "${var.project}"
